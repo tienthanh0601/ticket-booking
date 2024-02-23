@@ -1,0 +1,87 @@
+.banner .search-form {
+  position: absolute;
+  top: 35%;
+}
+.search-form {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin: 24px;
+  .form-input,
+  .form-input-2,
+  .form-input-3 {
+    width: 220px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+
+    .icon-start {
+      font-size: 24px;
+      color: #2474e5;
+    }
+    .icon-end {
+      font-size: 30px;
+      color: red;
+    }
+    .icon-day {
+      font-size: 22px;
+      color: #2474e5;
+    }
+    .form-label {
+      width: 100%;
+      .station-name {
+        width: 100%;
+        line-height: 16px;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(27, 27, 27);
+        margin-left: 12px;
+      }
+      .pick-date {
+        input {
+          color: #000;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+      .select-form {
+        width: 100%;
+        span {
+          color: #000;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+  .form-input {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+  }
+  .form-input-3 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: none;
+  }
+  .btn-search {
+    padding: 16px 32px;
+    background-color: var(--color-febd69);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 16px;
+  }
+
+  .btn-search:hover {
+    cursor: pointer;
+    opacity: 0.78;
+  }
+}

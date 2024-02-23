@@ -1,0 +1,22 @@
+.list-seat {
+  display: flex;
+  justify-content: space-evenly;
+  .seat-groups {
+    width: 30%;
+  }
+  .seat-template {
+    background-color: #ccc;
+    width: 30%;
+    .btn-seat-detail {
+      width: 40px;
+      height: 36px;
+      margin: 12px;
+      cursor: pointer;
+    }
+  }
+}
+
+.action-seat {
+  display: flex;
+  justify-content: space-evenly;
+}
